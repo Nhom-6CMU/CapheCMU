@@ -16,6 +16,7 @@ using System.Reflection;
 namespace CapheCMU.Module.BusinessObjects.ORMDataModel1
 {
 
+    [DefaultProperty("Hoten")]
     public partial class Nhacungcap : DevExpress.Persistent.BaseImpl.Address
     {
         string fHoten;

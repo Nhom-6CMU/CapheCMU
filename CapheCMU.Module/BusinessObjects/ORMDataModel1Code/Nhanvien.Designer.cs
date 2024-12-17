@@ -16,6 +16,7 @@ using System.Reflection;
 namespace CapheCMU.Module.BusinessObjects.ORMDataModel1
 {
 
+    [DefaultProperty("Hoten")]
     public partial class Nhanvien : DevExpress.Persistent.BaseImpl.BaseObject
     {
         string fHoten;
@@ -41,6 +42,13 @@ DevExpress.ExpressApp.Model.ModelDefault("EditMask", "###,###,###,###,###,###")]
         {
             get { return fMucluong; }
             set { SetPropertyValue<decimal>(nameof(Mucluong), ref fMucluong, value); }
+        }
+        string fChucvu;
+        [DevExpress.Xpo.DisplayName(@"Chức vụ")]
+        public string Chucvu
+        {
+            get { return fChucvu; }
+            set { SetPropertyValue<string>(nameof(Chucvu), ref fChucvu, value); }
         }
         [Association(@"BangluongReferencesNhanvien"), Aggregated]
         public XPCollection<Bangluong> Bangluongs { get { return GetCollection<Bangluong>(nameof(Bangluongs)); } }
