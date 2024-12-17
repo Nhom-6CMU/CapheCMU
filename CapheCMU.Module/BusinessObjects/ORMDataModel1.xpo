@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="3d8f0199-174c-4fc5-b0de-77765196cb27" namespace="CapheCMU.Module.BusinessObjects.ORMDataModel1" dataBaseShemaInfo="H4sIAAAAAAAEAMVTTU/CQBC9m/gfmp6xWxADkm0JUDVGJQTUeF3aoWzc7pL9aOu/d2nBpAXj0dvOe28yL7Nv8LjMmJODVFTwwO16vjsOLy/wlChYaSFJCo98Ixyr4mpUqiRwt1rvRggVReEV156QKer5fhd9vDyv4i1kxP0R07/FV5QrTXgMrp3qOPiVrBmoaiSqkb0LSBZSxA34vbYcRpDflTsJSnkR0cTLe32v23EOdLCvvIHnd5yZYdpICDgYLQnrOAuzZjR+gq9X8Qk8WA+HSXdw008Gvg/9W4LRcUQ1b8aIUqDmJIOlYVCBFp4k1hpsaHnwVUMrs2lAS8hEDm1hjba1M7v58I3HW8JTSDCq6soCOucB283sQGr6z95+sYEfgIMkGmYiy4BrFWppAKMTuCGOQNHUPu+pDUOro8lVbREw0DBRSsSUaPtlx54zRNUwN4ztgzaFLcmpkDZFG2LzgdEJY28BtY4h/Ab+eY+oNQMAAA==" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" createdInVersion="24.1.7.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="24.1.7.0" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="81d3b27f-d01c-4cbf-9a82-1695f17da7c9">
+      <xpObject Id="c058140a-0aaa-46ae-a101-3e0c69332f1d" name="Hoadon" baseClass="XPObject" virtualName="Hoadon" />
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="fd1491a8-9a37-404d-b9fc-a15f3e74e024">
+      <xpObject Id="72ee33d2-7da4-4403-a11b-754f30866a47" name="GeneralXpObject2" baseClass="XPObject" virtualName="GeneralXpObject2" />
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="41e678ba-d6cd-4a61-af12-c1473ec2bb61">
+      <xpObject Id="3791bbf0-90ec-4222-a9de-504f0a3fc87e" name="GeneralXpObject3" baseClass="XPObject" virtualName="GeneralXpObject3" />
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
